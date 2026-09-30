@@ -1,0 +1,14 @@
+------------------------------------------------
+         FLUJO DE RUTAS CON PATHRESOLVER
+------------------------------------------------
+
+1. Llega el string: "/documentos/nota.txt"
+2. Lo normalizamos → ["documentos", "nota.txt"]
+3. Caminamos la BD desde la raíz del usuario:
+   - Buscamos "documentos" con user_id=3, parent_id IS NULL → id=10
+   - Buscamos "nota.txt" con user_id=3, parent_id=10 → id=15
+4. Si todo OK, construimos:
+   - Ruta lógica canónica: "/documentos/nota.txt"
+   - Ruta física: storage/users/3/documentos/nota.txt
+   - Nodo final: id=15
+5. Devolvemos un objeto con esos datos
