@@ -1,10 +1,6 @@
-**Cierto.** Aquí está el `README.md` completo y actualizado con **todo lo de Fase 2**.
-
----
 
 ## `README.md`
 
-```markdown
 # 📁 FileManager
 
 Gestor de archivos web tipo Google Drive construido en **PHP puro** (sin frameworks) con **MySQL/MariaDB**, HTML5, CSS3 y JavaScript vanilla.
@@ -374,6 +370,28 @@ Elementos visuales:
 - **Animaciones:** fade, float, shimmer, scale
 - **View Transitions API** para navegación fluida
 
+---
+## 📸 Capturas
+
+### Explorador de archivos
+![Explorador](docs/img1.PNG)
+
+### Panel de administración
+![Gestión de usuarios](docs/usuarios.PNG)
+![Departamentos](docs/departamentos.PNG)
+![Reportes](docs/reportes.PNG)
+
+### Carpetas compartidas
+![Carpetas compartidas](docs/compartidas-admin.PNG)
+
+### Solicitudes de cuenta
+![Solicitudes](docs/creacion-cuenta-solicitud.PNG)
+
+### Perfil de usuario
+![Perfil](docs/perfil.PNG)
+
+### Pantalla de carga
+![Cargando](docs/cargando.PNG)
 ---
 
 ## 📋 Roadmap
